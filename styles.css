@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #eaeaea;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+header nav .button {
+    background-color: #ff4081;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro, .development, .testimonials, .stats, .champions, .mission {
+    margin-bottom: 40px;
+}
+
+.development .cards, .testimonials .testimonial-cards, .champions .champion-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card, .testimonial-card, .champion-card {
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+}
+
+.card img, .champion-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.stat h3 {
+    margin: 0;
+    font-size: 2em;
+    color: #ff4081;
+}
+
+.stat p {
+    margin: 5px 0 0;
+}
+
+.button {
+    display: inline-block;
+    background-color: #ff4081;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.mission {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
